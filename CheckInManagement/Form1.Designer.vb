@@ -28,7 +28,7 @@ Partial Class Form1
         '
         'btnEmployee
         '
-        Me.btnEmployee.Location = New System.Drawing.Point(54, 26)
+        Me.btnEmployee.Location = New System.Drawing.Point(37, 98)
         Me.btnEmployee.Name = "btnEmployee"
         Me.btnEmployee.Size = New System.Drawing.Size(130, 64)
         Me.btnEmployee.TabIndex = 0
@@ -37,7 +37,7 @@ Partial Class Form1
         '
         'btnEmployer
         '
-        Me.btnEmployer.Location = New System.Drawing.Point(190, 26)
+        Me.btnEmployer.Location = New System.Drawing.Point(38, 28)
         Me.btnEmployer.Name = "btnEmployer"
         Me.btnEmployer.Size = New System.Drawing.Size(129, 64)
         Me.btnEmployer.TabIndex = 1
@@ -48,7 +48,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(355, 115)
+        Me.ClientSize = New System.Drawing.Size(209, 203)
         Me.Controls.Add(Me.btnEmployer)
         Me.Controls.Add(Me.btnEmployee)
         Me.Name = "Form1"
