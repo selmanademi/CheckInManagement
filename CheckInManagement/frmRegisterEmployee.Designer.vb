@@ -47,7 +47,7 @@ Partial Class frmRegisterEmployee
         'lblFirstName
         '
         Me.lblFirstName.AutoSize = True
-        Me.lblFirstName.Location = New System.Drawing.Point(119, 43)
+        Me.lblFirstName.Location = New System.Drawing.Point(16, 107)
         Me.lblFirstName.Name = "lblFirstName"
         Me.lblFirstName.Size = New System.Drawing.Size(60, 13)
         Me.lblFirstName.TabIndex = 0
@@ -56,7 +56,7 @@ Partial Class frmRegisterEmployee
         'lblLastName
         '
         Me.lblLastName.AutoSize = True
-        Me.lblLastName.Location = New System.Drawing.Point(121, 77)
+        Me.lblLastName.Location = New System.Drawing.Point(16, 139)
         Me.lblLastName.Name = "lblLastName"
         Me.lblLastName.Size = New System.Drawing.Size(61, 13)
         Me.lblLastName.TabIndex = 1
@@ -65,7 +65,7 @@ Partial Class frmRegisterEmployee
         'lblAddress
         '
         Me.lblAddress.AutoSize = True
-        Me.lblAddress.Location = New System.Drawing.Point(121, 164)
+        Me.lblAddress.Location = New System.Drawing.Point(16, 235)
         Me.lblAddress.Name = "lblAddress"
         Me.lblAddress.Size = New System.Drawing.Size(48, 13)
         Me.lblAddress.TabIndex = 2
@@ -74,7 +74,7 @@ Partial Class frmRegisterEmployee
         'lblBirthdate
         '
         Me.lblBirthdate.AutoSize = True
-        Me.lblBirthdate.Location = New System.Drawing.Point(121, 194)
+        Me.lblBirthdate.Location = New System.Drawing.Point(16, 267)
         Me.lblBirthdate.Name = "lblBirthdate"
         Me.lblBirthdate.Size = New System.Drawing.Size(52, 13)
         Me.lblBirthdate.TabIndex = 3
@@ -83,7 +83,7 @@ Partial Class frmRegisterEmployee
         'lblGender
         '
         Me.lblGender.AutoSize = True
-        Me.lblGender.Location = New System.Drawing.Point(121, 225)
+        Me.lblGender.Location = New System.Drawing.Point(16, 299)
         Me.lblGender.Name = "lblGender"
         Me.lblGender.Size = New System.Drawing.Size(45, 13)
         Me.lblGender.TabIndex = 4
@@ -92,7 +92,7 @@ Partial Class frmRegisterEmployee
         'lblEmail
         '
         Me.lblEmail.AutoSize = True
-        Me.lblEmail.Location = New System.Drawing.Point(121, 258)
+        Me.lblEmail.Location = New System.Drawing.Point(16, 331)
         Me.lblEmail.Name = "lblEmail"
         Me.lblEmail.Size = New System.Drawing.Size(38, 13)
         Me.lblEmail.TabIndex = 5
@@ -100,36 +100,36 @@ Partial Class frmRegisterEmployee
         '
         'txtFirstName
         '
-        Me.txtFirstName.Location = New System.Drawing.Point(245, 36)
+        Me.txtFirstName.Location = New System.Drawing.Point(114, 107)
         Me.txtFirstName.Name = "txtFirstName"
         Me.txtFirstName.Size = New System.Drawing.Size(200, 20)
-        Me.txtFirstName.TabIndex = 6
+        Me.txtFirstName.TabIndex = 0
         '
         'txtAddress
         '
-        Me.txtAddress.Location = New System.Drawing.Point(245, 164)
+        Me.txtAddress.Location = New System.Drawing.Point(114, 228)
         Me.txtAddress.Name = "txtAddress"
         Me.txtAddress.Size = New System.Drawing.Size(200, 20)
-        Me.txtAddress.TabIndex = 8
+        Me.txtAddress.TabIndex = 4
         '
         'txtLastName
         '
-        Me.txtLastName.Location = New System.Drawing.Point(245, 70)
+        Me.txtLastName.Location = New System.Drawing.Point(114, 136)
         Me.txtLastName.Name = "txtLastName"
         Me.txtLastName.Size = New System.Drawing.Size(200, 20)
-        Me.txtLastName.TabIndex = 9
+        Me.txtLastName.TabIndex = 1
         '
         'txtEmail
         '
-        Me.txtEmail.Location = New System.Drawing.Point(245, 258)
+        Me.txtEmail.Location = New System.Drawing.Point(114, 328)
         Me.txtEmail.Name = "txtEmail"
         Me.txtEmail.Size = New System.Drawing.Size(200, 20)
-        Me.txtEmail.TabIndex = 11
+        Me.txtEmail.TabIndex = 8
         '
         'lblPhone
         '
         Me.lblPhone.AutoSize = True
-        Me.lblPhone.Location = New System.Drawing.Point(121, 292)
+        Me.lblPhone.Location = New System.Drawing.Point(16, 363)
         Me.lblPhone.Name = "lblPhone"
         Me.lblPhone.Size = New System.Drawing.Size(41, 13)
         Me.lblPhone.TabIndex = 12
@@ -137,25 +137,25 @@ Partial Class frmRegisterEmployee
         '
         'txtPhone
         '
-        Me.txtPhone.Location = New System.Drawing.Point(245, 292)
+        Me.txtPhone.Location = New System.Drawing.Point(114, 356)
         Me.txtPhone.Name = "txtPhone"
         Me.txtPhone.Size = New System.Drawing.Size(200, 20)
-        Me.txtPhone.TabIndex = 13
+        Me.txtPhone.TabIndex = 9
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(245, 194)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(114, 261)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(200, 20)
-        Me.DateTimePicker1.TabIndex = 14
+        Me.DateTimePicker1.TabIndex = 5
         '
         'rdbMale
         '
         Me.rdbMale.AutoSize = True
-        Me.rdbMale.Location = New System.Drawing.Point(245, 225)
+        Me.rdbMale.Location = New System.Drawing.Point(114, 295)
         Me.rdbMale.Name = "rdbMale"
         Me.rdbMale.Size = New System.Drawing.Size(48, 17)
-        Me.rdbMale.TabIndex = 15
+        Me.rdbMale.TabIndex = 6
         Me.rdbMale.TabStop = True
         Me.rdbMale.Text = "Male"
         Me.rdbMale.UseVisualStyleBackColor = True
@@ -163,41 +163,45 @@ Partial Class frmRegisterEmployee
         'rdbFemale
         '
         Me.rdbFemale.AutoSize = True
-        Me.rdbFemale.Location = New System.Drawing.Point(314, 225)
+        Me.rdbFemale.Location = New System.Drawing.Point(182, 295)
         Me.rdbFemale.Name = "rdbFemale"
         Me.rdbFemale.Size = New System.Drawing.Size(59, 17)
-        Me.rdbFemale.TabIndex = 16
+        Me.rdbFemale.TabIndex = 7
         Me.rdbFemale.TabStop = True
         Me.rdbFemale.Text = "Female"
         Me.rdbFemale.UseVisualStyleBackColor = True
         '
         'btnRegister
         '
-        Me.btnRegister.Location = New System.Drawing.Point(303, 334)
+        Me.btnRegister.Image = Global.CheckInManagement.My.Resources.Resources.ok_icon3
+        Me.btnRegister.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnRegister.Location = New System.Drawing.Point(242, 398)
         Me.btnRegister.Name = "btnRegister"
-        Me.btnRegister.Size = New System.Drawing.Size(142, 28)
-        Me.btnRegister.TabIndex = 17
+        Me.btnRegister.Size = New System.Drawing.Size(72, 28)
+        Me.btnRegister.TabIndex = 10
         Me.btnRegister.Text = "Register"
+        Me.btnRegister.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btnRegister.UseVisualStyleBackColor = True
         '
         'txtPassword
         '
-        Me.txtPassword.Location = New System.Drawing.Point(245, 134)
+        Me.txtPassword.Location = New System.Drawing.Point(114, 196)
         Me.txtPassword.Name = "txtPassword"
+        Me.txtPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.txtPassword.Size = New System.Drawing.Size(200, 20)
-        Me.txtPassword.TabIndex = 18
+        Me.txtPassword.TabIndex = 3
         '
         'txtUsername
         '
-        Me.txtUsername.Location = New System.Drawing.Point(245, 106)
+        Me.txtUsername.Location = New System.Drawing.Point(114, 165)
         Me.txtUsername.Name = "txtUsername"
         Me.txtUsername.Size = New System.Drawing.Size(200, 20)
-        Me.txtUsername.TabIndex = 19
+        Me.txtUsername.TabIndex = 2
         '
         'lblUsername
         '
         Me.lblUsername.AutoSize = True
-        Me.lblUsername.Location = New System.Drawing.Point(121, 113)
+        Me.lblUsername.Location = New System.Drawing.Point(16, 171)
         Me.lblUsername.Name = "lblUsername"
         Me.lblUsername.Size = New System.Drawing.Size(58, 13)
         Me.lblUsername.TabIndex = 20
@@ -206,7 +210,7 @@ Partial Class frmRegisterEmployee
         'lblPassword
         '
         Me.lblPassword.AutoSize = True
-        Me.lblPassword.Location = New System.Drawing.Point(121, 141)
+        Me.lblPassword.Location = New System.Drawing.Point(16, 203)
         Me.lblPassword.Name = "lblPassword"
         Me.lblPassword.Size = New System.Drawing.Size(56, 13)
         Me.lblPassword.TabIndex = 21
@@ -216,7 +220,10 @@ Partial Class frmRegisterEmployee
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(496, 445)
+        Me.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.BackgroundImage = Global.CheckInManagement.My.Resources.Resources.checkineasylogo21
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.ClientSize = New System.Drawing.Size(342, 439)
         Me.Controls.Add(Me.lblPassword)
         Me.Controls.Add(Me.lblUsername)
         Me.Controls.Add(Me.txtUsername)

@@ -22,33 +22,42 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btnEmployee = New System.Windows.Forms.Button()
         Me.btnEmployer = New System.Windows.Forms.Button()
+        Me.btnEmployee = New System.Windows.Forms.Button()
         Me.SuspendLayout()
-        '
-        'btnEmployee
-        '
-        Me.btnEmployee.Location = New System.Drawing.Point(37, 98)
-        Me.btnEmployee.Name = "btnEmployee"
-        Me.btnEmployee.Size = New System.Drawing.Size(130, 64)
-        Me.btnEmployee.TabIndex = 0
-        Me.btnEmployee.Text = "Employee"
-        Me.btnEmployee.UseVisualStyleBackColor = True
         '
         'btnEmployer
         '
-        Me.btnEmployer.Location = New System.Drawing.Point(38, 28)
+        Me.btnEmployer.Image = Global.CheckInManagement.My.Resources.Resources._1
+        Me.btnEmployer.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnEmployer.Location = New System.Drawing.Point(85, 84)
         Me.btnEmployer.Name = "btnEmployer"
-        Me.btnEmployer.Size = New System.Drawing.Size(129, 64)
+        Me.btnEmployer.Size = New System.Drawing.Size(92, 64)
         Me.btnEmployer.TabIndex = 1
         Me.btnEmployer.Text = "Employer"
+        Me.btnEmployer.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btnEmployer.UseVisualStyleBackColor = True
+        '
+        'btnEmployee
+        '
+        Me.btnEmployee.Image = Global.CheckInManagement.My.Resources.Resources.m
+        Me.btnEmployee.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnEmployee.Location = New System.Drawing.Point(85, 171)
+        Me.btnEmployee.Name = "btnEmployee"
+        Me.btnEmployee.Size = New System.Drawing.Size(93, 64)
+        Me.btnEmployee.TabIndex = 0
+        Me.btnEmployee.Text = "Employee"
+        Me.btnEmployee.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.btnEmployee.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(209, 203)
+        Me.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.BackgroundImage = Global.CheckInManagement.My.Resources.Resources.checkineasylogo21
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.ClientSize = New System.Drawing.Size(269, 268)
         Me.Controls.Add(Me.btnEmployer)
         Me.Controls.Add(Me.btnEmployee)
         Me.Name = "Form1"

@@ -28,18 +28,18 @@ Partial Class frmEmployer
         '
         'btnRegisterEmployee
         '
-        Me.btnRegisterEmployee.Location = New System.Drawing.Point(120, 126)
+        Me.btnRegisterEmployee.Location = New System.Drawing.Point(21, 126)
         Me.btnRegisterEmployee.Name = "btnRegisterEmployee"
-        Me.btnRegisterEmployee.Size = New System.Drawing.Size(110, 71)
+        Me.btnRegisterEmployee.Size = New System.Drawing.Size(110, 51)
         Me.btnRegisterEmployee.TabIndex = 5
         Me.btnRegisterEmployee.Text = "Register Employee"
         Me.btnRegisterEmployee.UseVisualStyleBackColor = True
         '
         'btnReports
         '
-        Me.btnReports.Location = New System.Drawing.Point(245, 126)
+        Me.btnReports.Location = New System.Drawing.Point(149, 126)
         Me.btnReports.Name = "btnReports"
-        Me.btnReports.Size = New System.Drawing.Size(110, 71)
+        Me.btnReports.Size = New System.Drawing.Size(110, 51)
         Me.btnReports.TabIndex = 6
         Me.btnReports.Text = "Reports"
         Me.btnReports.UseVisualStyleBackColor = True
@@ -48,7 +48,10 @@ Partial Class frmEmployer
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(447, 306)
+        Me.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.BackgroundImage = Global.CheckInManagement.My.Resources.Resources.checkineasylogo21
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.ClientSize = New System.Drawing.Size(279, 221)
         Me.Controls.Add(Me.btnReports)
         Me.Controls.Add(Me.btnRegisterEmployee)
         Me.Name = "frmEmployer"

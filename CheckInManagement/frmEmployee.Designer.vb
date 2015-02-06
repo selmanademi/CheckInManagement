@@ -29,7 +29,7 @@ Partial Class frmEmployee
         '
         'btnCheckOut
         '
-        Me.btnCheckOut.Location = New System.Drawing.Point(248, 189)
+        Me.btnCheckOut.Location = New System.Drawing.Point(149, 150)
         Me.btnCheckOut.Name = "btnCheckOut"
         Me.btnCheckOut.Size = New System.Drawing.Size(100, 71)
         Me.btnCheckOut.TabIndex = 4
@@ -38,7 +38,7 @@ Partial Class frmEmployee
         '
         'btnCheckIn
         '
-        Me.btnCheckIn.Location = New System.Drawing.Point(140, 189)
+        Me.btnCheckIn.Location = New System.Drawing.Point(29, 150)
         Me.btnCheckIn.Name = "btnCheckIn"
         Me.btnCheckIn.Size = New System.Drawing.Size(102, 71)
         Me.btnCheckIn.TabIndex = 3
@@ -47,9 +47,9 @@ Partial Class frmEmployee
         '
         'btnStatus
         '
-        Me.btnStatus.Location = New System.Drawing.Point(140, 153)
+        Me.btnStatus.Location = New System.Drawing.Point(104, 96)
         Me.btnStatus.Name = "btnStatus"
-        Me.btnStatus.Size = New System.Drawing.Size(75, 23)
+        Me.btnStatus.Size = New System.Drawing.Size(75, 34)
         Me.btnStatus.TabIndex = 5
         Me.btnStatus.Text = "My Status"
         Me.btnStatus.UseVisualStyleBackColor = True
@@ -58,7 +58,10 @@ Partial Class frmEmployee
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(470, 358)
+        Me.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.BackgroundImage = Global.CheckInManagement.My.Resources.Resources.checkineasylogo21
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.ClientSize = New System.Drawing.Size(285, 255)
         Me.Controls.Add(Me.btnStatus)
         Me.Controls.Add(Me.btnCheckOut)
         Me.Controls.Add(Me.btnCheckIn)

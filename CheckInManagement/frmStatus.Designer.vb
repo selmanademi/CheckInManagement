@@ -32,15 +32,15 @@ Partial Class frmStatus
         '
         Me.grdStatus.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.grdStatus.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.grdStatus.Location = New System.Drawing.Point(0, 58)
+        Me.grdStatus.Location = New System.Drawing.Point(0, 39)
         Me.grdStatus.Name = "grdStatus"
-        Me.grdStatus.Size = New System.Drawing.Size(470, 204)
+        Me.grdStatus.Size = New System.Drawing.Size(438, 204)
         Me.grdStatus.TabIndex = 7
         '
         'lblusername
         '
         Me.lblusername.AutoSize = True
-        Me.lblusername.Location = New System.Drawing.Point(13, 8)
+        Me.lblusername.Location = New System.Drawing.Point(12, 15)
         Me.lblusername.Name = "lblusername"
         Me.lblusername.Size = New System.Drawing.Size(58, 13)
         Me.lblusername.TabIndex = 4
@@ -48,7 +48,7 @@ Partial Class frmStatus
         '
         'txtSearch
         '
-        Me.txtSearch.Location = New System.Drawing.Point(80, 8)
+        Me.txtSearch.Location = New System.Drawing.Point(89, 12)
         Me.txtSearch.Name = "txtSearch"
         Me.txtSearch.Size = New System.Drawing.Size(100, 20)
         Me.txtSearch.TabIndex = 8
@@ -57,7 +57,8 @@ Partial Class frmStatus
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(470, 262)
+        Me.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.ClientSize = New System.Drawing.Size(438, 243)
         Me.Controls.Add(Me.txtSearch)
         Me.Controls.Add(Me.grdStatus)
         Me.Controls.Add(Me.lblusername)

@@ -32,23 +32,23 @@ Partial Class frmReport
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(13, 13)
+        Me.Label1.Location = New System.Drawing.Point(14, 26)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(60, 13)
+        Me.Label1.Size = New System.Drawing.Size(89, 13)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Select day:"
+        Me.Label1.Text = "Select username:"
         '
         'cmbDay
         '
         Me.cmbDay.FormattingEnabled = True
-        Me.cmbDay.Location = New System.Drawing.Point(79, 10)
+        Me.cmbDay.Location = New System.Drawing.Point(109, 23)
         Me.cmbDay.Name = "cmbDay"
-        Me.cmbDay.Size = New System.Drawing.Size(152, 21)
+        Me.cmbDay.Size = New System.Drawing.Size(304, 21)
         Me.cmbDay.TabIndex = 1
         '
         'btnLoad
         '
-        Me.btnLoad.Location = New System.Drawing.Point(237, 10)
+        Me.btnLoad.Location = New System.Drawing.Point(419, 23)
         Me.btnLoad.Name = "btnLoad"
         Me.btnLoad.Size = New System.Drawing.Size(75, 23)
         Me.btnLoad.TabIndex = 2
@@ -59,16 +59,18 @@ Partial Class frmReport
         '
         Me.grdReport.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.grdReport.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.grdReport.Location = New System.Drawing.Point(0, 58)
+        Me.grdReport.Location = New System.Drawing.Point(0, 63)
         Me.grdReport.Name = "grdReport"
-        Me.grdReport.Size = New System.Drawing.Size(489, 204)
+        Me.grdReport.Size = New System.Drawing.Size(514, 209)
         Me.grdReport.TabIndex = 3
         '
         'frmReport
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(489, 262)
+        Me.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.ClientSize = New System.Drawing.Size(514, 272)
         Me.Controls.Add(Me.grdReport)
         Me.Controls.Add(Me.btnLoad)
         Me.Controls.Add(Me.cmbDay)

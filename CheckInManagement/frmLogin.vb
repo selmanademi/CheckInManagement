@@ -41,6 +41,9 @@ Public Class frmLogin
 
         cmd.CommandText = " INSERT INTO Login (username) VALUES (@username)"
 
+        btnLogin.Focus()
+
+
     End Sub
 
   

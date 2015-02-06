@@ -172,6 +172,36 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok-icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok-icon3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkineasylogo2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkineasylogo21.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
